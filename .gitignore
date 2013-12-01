@@ -16,3 +16,12 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Sinatra
+*.db
+*.sqlite3
+log/*
+*.swp
+*.swo
+*~
+Gemfile.lock
