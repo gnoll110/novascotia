@@ -21,4 +21,3 @@ end
 get '/' do
   haml :root
 end
-
