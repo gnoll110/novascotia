@@ -1,9 +1,9 @@
-Given(/^the Transponder$/) do
-  pending # express the regexp above with the code you wish you had
+Given(/^the transponder$/) do
+  @transponder = Transponder.new
 end
 
 When(/^I ping it$/) do
-  pending # express the regexp above with the code you wish you had
+  pending # @info = @transponder
 end
 
 Then(/^I see the ship's registry info$/) do
