@@ -15,4 +15,13 @@ group :test do
   gem 'rspec', :require => 'spec'
   gem 'rack-test'
   gem 'cucumber'
+  gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end
+
+group :development do
+  gem 'guard-spork'
+  gem 'guard-cucumber'
+end
+
